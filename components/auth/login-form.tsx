@@ -100,7 +100,7 @@ export const LoginForm = () => {
                     <FormLabel>Two Factor Code</FormLabel>
                     <FormControl>
                       <Input
-                        disabled={isPending}
+                    
                         {...field}
                         placeholder="123456"
                       />
