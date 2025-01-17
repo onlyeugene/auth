@@ -107,7 +107,7 @@ const SettingsPage = () => {
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>Name</FormLabel>
+                    <FormLabel></FormLabel>
                     <FormControl>
                       <Input
                         {...field}
