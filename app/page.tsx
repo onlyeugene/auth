@@ -20,7 +20,9 @@ export default function Home() {
         >
           Auth
         </h1>
-        <p className={cn(`text-white text-lg`, font.className)}></p>
+        <p className={cn(`text-white text-lg`, font.className)}>
+          A simple authentication service
+        </p>
         <div>
           <LoginButton mode="modal" asChild>
             <Button variant="secondary" size="lg">
